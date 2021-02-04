@@ -8,8 +8,7 @@ def add_elem_to_list(list, elem):
 
 
 def delete_elem_from_list(list, index=-1):
-    list.pop(index)
-    return
+    return list.pop(index)
 
 
 def count_elements_in_list(list, x):
@@ -24,6 +23,3 @@ def sort_list(list):
 def reverse(list):
     list.reverse()
     return list
-
-
-print(reverse([2, 3, 4]))
